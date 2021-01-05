@@ -90,7 +90,7 @@ p.amount {
 }
 
 .timmer-container .time {
-  padding-right: 2rem;
+  padding-right: 2.5rem;
 }
 
 .timmer-container .material-icons {
@@ -128,6 +128,8 @@ p.amount {
 .ingredient-1st {
   margin-bottom: 2.5rem;
 }
+
+/* input section */
 label {
   color: #333333;
   font-size: 0.875rem;
@@ -203,4 +205,56 @@ label {
   -webkit-transform: rotate(45deg);
   -ms-transform: rotate(45deg);
   transform: rotate(45deg);
+}
+
+/* Instruction Section */
+
+.instruction-container h3 {
+  font-family: "Playfair Display", serif;
+  font-weight: 700;
+  color: #333333;
+  font-size: 1.5rem;
+  line-height: 1.33rem;
+  margin-bottom: 1.8rem;
+}
+
+.single-instruction div {
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+  font-size: 1.5rem;
+  line-height: 1.33;
+  width: 36px;
+  height: 36px;
+  border-radius: 6px;
+  color: white;
+  text-align: center;
+  background-color: #f2994a;
+  margin-right: 1rem;
+}
+.single-instruction {
+  display: grid;
+  grid-template-columns: 1fr 9fr;
+  margin-bottom: 1.5rem;
+}
+.single-instruction p {
+  font-size: 1rem;
+  line-height: 1.5;
+  font-weight: 400;
+}
+.source {
+  color: #bdbdbd;
+  font-size: 12px;
+  line-height: 1.5;
+  margin-top: 1.6rem;
+  margin-bottom: 8rem;
+}
+footer {
+  text-align: center;
+}
+footer p {
+  font-weight: 600;
+  font-size: 0.875rem;
+  line-height: 1.3;
+  color: #a9a9a9;
+  margin-bottom: 1rem;
 }
