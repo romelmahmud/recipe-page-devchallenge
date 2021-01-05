@@ -44,3 +44,56 @@ body {
   line-height: 1.5;
   margin-bottom: 1.5rem;
 }
+.recipe-stats {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-bottom: 1.8rem;
+}
+
+.yeilds-stats,
+.time {
+  display: flex;
+  align-items: flex-start;
+}
+.yeilds-stats {
+  color: #f2994a;
+  margin-bottom: 1.4rem;
+}
+.yeilds-stats .material-icons {
+  font-size: 1.2rem;
+}
+
+.stats-content {
+  margin-left: 0.2rem;
+}
+
+.stats-content p.title {
+  color: #bdbdbd;
+  font-size: 0.5rem;
+  line-height: 1.2;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+p.amount {
+  font-size: 0.625rem;
+  font-weight: 500;
+  color: #333333;
+}
+
+.yeilds-stats p.amount {
+  color: #f2994a;
+}
+.recipe-stats .timmer-container {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.timmer-container .time {
+  padding-right: 2rem;
+}
+
+.timmer-container .material-icons {
+  color: #4f4f4f;
+  font-size: 1.2rem;
+}
