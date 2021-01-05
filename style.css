@@ -104,10 +104,14 @@ p.amount {
   color: #333333;
   font-size: 1.125rem;
   line-height: 1.33rem;
-  margin-bottom: 0.8rem;
+  margin-bottom: 1rem;
+}
+.ingredients-container {
+  margin-bottom: 1.8rem;
 }
 
-.ingredient-1st p {
+.ingredient-1st p,
+.ingredient-2nd p {
   font-family: "Playfair Display", serif;
   font-weight: 400;
   font-style: italic;
@@ -115,6 +119,14 @@ p.amount {
   line-height: 1.33rem;
   margin-bottom: 1.5rem;
   color: #333333;
+}
+.italic-bold {
+  font-weight: 500;
+  font-style: italic;
+}
+
+.ingredient-1st {
+  margin-bottom: 2.5rem;
 }
 label {
   color: #333333;
