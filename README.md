@@ -16,7 +16,7 @@
       Solution
     </a>
     <span> | </span>
-    <a href="https://{your-url-to-the-challenge}">
+    <a href="https://devchallenges.io/challenges/OEKdUZ6xs0h99C38XVht">
       Challenge
     </a>
   </h3>
@@ -47,7 +47,7 @@
 
 ![screenshot](https://i.postimg.cc/j29zqhkp/mobile-1.png)
 
-This one litlle tricky one, it took me some time to finish, but I did it. I learn how to customize input checkbox feild. [Demo site](https://recipe-page-devchallenge-romel.netlify.app/)
+This one little tricky one, it took me some time to finish, but I did it. I learn how to customize the input checkbox field. [Demo site](https://recipe-page-devchallenge-romel.netlify.app/)
 
 ### Built With
 
