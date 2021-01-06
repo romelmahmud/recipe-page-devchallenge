@@ -269,4 +269,15 @@ footer p {
   .content-para p {
     font-size: 0.875rem;
   }
+  .content-wraper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "recipe stats";
+  }
+  .recipe-stats {
+    grid-area: stats;
+  }
+  .recipe-container {
+    grid-area: recipe;
+  }
 }
