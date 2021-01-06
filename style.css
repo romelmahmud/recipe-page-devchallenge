@@ -230,7 +230,8 @@ p.amount {
 }
 .single-instruction {
   display: grid;
-  grid-template-columns: 1fr 9fr;
+  grid-template-columns: 1fr 15fr;
+
   margin-bottom: 1.5rem;
 }
 .single-instruction p {
@@ -274,15 +275,52 @@ footer p {
     flex-direction: row-reverse;
   }
   .recipe-stats {
-    padding: 3.8rem 2.5rem;
+    padding: 3rem 0.5rem 1rem;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
     background-color: white;
     border-radius: 10px;
     align-self: start;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
   }
 
   .recipe-stats .timmer-container {
-    display: flex;
-    flex-direction: column;
+    display: block;
+    margin-left: 50%;
+  }
+  .time {
+    margin-bottom: 2.5rem;
+    margin-right: 4.5rem;
+  }
+  .time p.title {
+    width: 100px;
+  }
+  .yeilds-stats {
+    padding-bottom: 1.1rem;
+  }
+  .yeilds-stats .material-icons,
+  .time .material-icons {
+    font-size: 1.8rem;
+    margin-right: 5px;
+  }
+
+  .stats-content p.title,
+  .time p.title {
+    margin-bottom: 7px;
+    font-size: 0.625rem;
+    letter-spacing: 1px;
+  }
+  p.amount {
+    font-weight: 600;
+    font-size: 0.875rem;
+  }
+
+  p.source br {
+    display: none;
+  }
+  .source {
+    font-size: 1rem;
+    margin-top: 3rem;
   }
 }
