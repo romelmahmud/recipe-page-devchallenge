@@ -130,12 +130,7 @@ p.amount {
 }
 
 /* input section */
-label {
-  color: #333333;
-  font-size: 0.875rem;
-  line-height: 1.8;
-  cursor: pointer;
-}
+
 /* Customize the label (the container) */
 .container {
   display: block;
@@ -143,7 +138,9 @@ label {
   padding-left: 2rem;
   margin-bottom: 0.5rem;
   cursor: pointer;
-
+  color: #333333;
+  font-size: 0.875rem;
+  line-height: 1.8;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
@@ -257,4 +254,19 @@ footer p {
   line-height: 1.3;
   color: #a9a9a9;
   margin-bottom: 1rem;
+}
+
+/* media queary */
+
+@media (min-width: 800px) {
+  .content h1 {
+    font-size: 3rem;
+  }
+  .content-para {
+    max-width: 75%;
+    margin-bottom: 1.8rem;
+  }
+  .content-para p {
+    font-size: 0.875rem;
+  }
 }
