@@ -270,14 +270,19 @@ footer p {
     font-size: 0.875rem;
   }
   .content-wraper {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-areas: "recipe stats";
+    display: flex;
+    flex-direction: row-reverse;
   }
   .recipe-stats {
-    grid-area: stats;
+    padding: 3.8rem 2.5rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+    background-color: white;
+    border-radius: 10px;
+    align-self: start;
   }
-  .recipe-container {
-    grid-area: recipe;
+
+  .recipe-stats .timmer-container {
+    display: flex;
+    flex-direction: column;
   }
 }
